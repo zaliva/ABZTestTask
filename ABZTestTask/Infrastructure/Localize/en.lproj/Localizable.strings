@@ -1,0 +1,4 @@
+//MARK: General
+"networkError" = "Network Error";
+"networkErrorMsg" = "Something went wrong";
+"cancel" = "Cancel";
