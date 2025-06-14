@@ -284,13 +284,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ABZTestTask/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestTask;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use your photo library to let you select a photo for your profile avatar.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to upload your photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use the gallery to select photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,13 +320,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ABZTestTask/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestTask;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use your photo library to let you select a photo for your profile avatar.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to upload your photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use the gallery to select photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

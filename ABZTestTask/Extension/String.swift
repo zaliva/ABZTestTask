@@ -12,7 +12,8 @@ extension String {
         "-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])"
         
         let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-        return emailPred.evaluate(with: self)
+        let startsWithLowercase = self.first?.isLowercase ?? false
+        return emailPred.evaluate(with: self) && startsWithLowercase
     }
     
     func isValidPhoneNumber() -> Bool {

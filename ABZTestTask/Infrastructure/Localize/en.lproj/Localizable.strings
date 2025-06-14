@@ -1,4 +1,32 @@
-//MARK: General
+// MARK: - Tabs
+"usersTab" = "Users";
+"signUpTab" = "Sign Up";
+
+// MARK: - Form Labels
+"yourName" = "Your name";
+"email" = "Email";
+"requiredField" = "Required field";
+"invalidEmail" = "Invalid email format";
+"phone" = "Phone";
+"selectYourPosition" = "Select your position";
+"uploadYourPhoto" = "Upload your photo";
+"imageSelected" = "Image selected";
+"upload" = "Upload";
+"choosePhoto" = "Choose how you want to add a photo";
+
+// MARK: - Photo Picker
+"camera" = "Camera";
+"gallery" = "Gallery";
+"photoRequired" = "Photo is required";
+
+// MARK: - Registration
+"tryAgain" = "Try again";
+"emailAlreadyRegistered" = "That email is already registered";
+"successfullyRegistered" = "User successfully registered";
+
+// MARK: - Other
+"notYetUserText" = "There are no users yet";
 "networkError" = "Network Error";
 "networkErrorMsg" = "Something went wrong";
+"noInternetConnection" = "There is no internet connection";
 "cancel" = "Cancel";
